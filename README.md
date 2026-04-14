@@ -85,7 +85,7 @@ Placeholder paths:
 
 ```bash
 npm install
-cp .env.example .env.local
+cp env.template .env.local
 npm run dev
 ```
 
@@ -110,7 +110,7 @@ npm install
 ### 2) Configure env
 
 ```bash
-cp .env.example .env.local
+cp env.template .env.local
 ```
 
 ### 3) Run development server
@@ -121,7 +121,7 @@ npm run dev
 
 ## Environment Variables
 
-Current env template is in `.env.example`.
+Current env template is in `env.template`.
 
 Required for Supabase mode:
 - `NEXT_PUBLIC_SUPABASE_URL`
@@ -199,4 +199,3 @@ Detailed product/design/engineering specs are included in the repo:
 - `TECH_SPEC.md`
 - `UI_UX_SPEC.md`
 - `DESIGN_SYSTEM.md`
-- `SUPABASE_SCHEMA.md`

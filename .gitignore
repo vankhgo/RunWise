@@ -32,7 +32,6 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
-!.env.example
 
 # vercel
 .vercel
@@ -40,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# release hygiene (internal/private docs)
+AGENTS.md
+CLAUDE.md
+CURRENT_PRODUCT_RULES.md
+BACKEND_HANDOFF.md
+SUPABASE_SCHEMA.md
+WEATHER_API_SPEC.md
+TODO.md
+FRONTEND_SCAFFOLD_PLAN.md
+ROADMAP.md
+docs/superpowers/plans/
+
+# database dumps and SQL
+supabase/sql/
+*.sql
